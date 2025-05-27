@@ -1,0 +1,75 @@
+
+
+
+body, ul {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif; 
+}
+
+
+.navbar {
+  
+  background-color: #004d40;
+  padding: 15px 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  border-radius: 10px;
+}
+
+/* Style the unordered list */
+.navbar-list {
+  display: flex;
+  justify-content: space-evenly; 
+  align-items: center; 
+  list-style-type: none;
+}
+
+/* Style for each list item */
+.navbar-item {
+  color: white; 
+  text-decoration: none;
+  padding: 12px 18px; 
+  font-size: 18px;
+  font-weight: 600; 
+  text-transform: uppercase; 
+  border-radius: 5px; /* Rounded edges on each item */
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+
+.navbar-item:hover {
+  background: rgba(255, 255, 255, 0.2); 
+  transform: scale(1.1); /* Slightly increases the size of the item */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Soft shadow on hover */
+}
+
+
+.navbar-item:focus {
+  outline: none;
+border: 2px solid #2575fc; 
+}
+.htmlHeading {
+   text-align: center;
+
+}
+ .paraOne{
+       margin-left: 20px; 
+    }
+    h3{
+        margin-left: 10px;
+    }
+    p{
+        margin-left: 10px;
+    }
+    ul{
+        margin-left: 10px;
+    }
+    .css-notes{
+        margin-left: 10px;
+    }
+    #JS{
+      text-align: center;
+    }
+    #react{
+      text-align: center;
+    }

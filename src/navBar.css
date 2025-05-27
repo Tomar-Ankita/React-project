@@ -1,0 +1,38 @@
+.active-Link{
+    color: brown;
+    border-radius: 10px;
+    border:solid;
+
+}
+
+#aboutBox {
+  border: 5px solid darkcyan;
+  border-radius: 20px;
+  color: #333333; /* Dark grey text for contrast */
+  padding: 20px;
+  width: 400px;
+  margin: 40px auto; /* Top margin and horizontal center */
+  text-align: center;
+}
+#screenWrapper {
+  background: linear-gradient(135deg, #d4fc79, #96e6a1);
+  min-height: 100vh;
+  padding: 40px;
+}
+#browserColor{
+   background: linear-gradient(135deg, #6a0dad, #ff7eb9); 
+  min-height: 100vh;
+  padding: 40px;
+}
+#homeCss{
+    border: 1px solid #ffffff; /* White border for high contrast */
+    border-width: 5px;
+  border-radius: 10px;
+   color: #000000; /* Black for maximum contrast */
+  padding: 20px;
+  width: 400px;
+  margin: 40px auto; /* Top margin and horizontal center */
+  text-align: center;
+}
+
+
