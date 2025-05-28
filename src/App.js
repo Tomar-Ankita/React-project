@@ -92,7 +92,7 @@ function App() {
    
     <Router>
       <Navbar />
-      <Routes>
+      <Routes> {/*provide routes */}
         <Route path="/" element={<Codemind />} />
         <Route path="/html" element={<HTML />} />
         <Route path="/css" element={<CSS />} />

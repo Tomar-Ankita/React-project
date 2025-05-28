@@ -17,23 +17,23 @@ function JavaScript() {
       </ul>
        <h3> # Data Types in JavaScript</h3>
       <ul>
-        <li><strong>String:</strong> Text (e.g., "Hello")</li>
+        <li><strong>1.String:</strong> Text (e.g., "Hello")</li>
           <div style={{ marginTop: "10px" }}>
       <img src="/Strings.jpg" alt="JavaScript Strings" 
         style={{ width: "350px", height: "auto" }} 
       />
       </div>
-        <li><strong>Number:</strong> Integer or float (e.g., 42, 3.14)</li>
-        <li><strong>Boolean:</strong> true or false</li>
-        <li><strong>Array:</strong> A list of values (e.g., [1, 2, 3])</li>
-        <li><strong>Object:</strong> Key-value pairs (e.g., {"{"}name: "Ankita"{"}"})</li>
+        <li><strong>2.Number:</strong> Integer or float (e.g., 42, 3.14)</li>
+        <li><strong>3.Boolean:</strong> true or false</li>
+        <li><strong>4.Array:</strong> A list of values (e.g., [1, 2, 3])</li>
+        <li><strong>5.Object:</strong> Key-value pairs (e.g., {"{"}name: "Ankita"{"}"})</li>
         <div style={{ marginTop: "10px" }}>
       <img src="/JS.jpg" alt="JavaScript Object Example" 
         style={{ width: "350px", height: "auto" }} 
       />
       </div>
 
-        <li><strong>Null & Undefined:</strong> Empty or unassigned values</li>
+        <li><strong>6.Null & Undefined:</strong> Empty or unassigned values</li>
       </ul>
 </div>
 

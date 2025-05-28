@@ -10,7 +10,7 @@ function Codemind() {
     }}>
       {/* Overlay */}
       <div style={{
-        backgroundColor: 'rgba(0, 0, 0, 0.5)', // dark transparent layer
+        backgroundColor: 'rgba(0, 0, 0, 0.5)', 
         height: '100%',
         width: '100%',
         position: 'absolute',

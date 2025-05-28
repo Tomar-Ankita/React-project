@@ -25,11 +25,13 @@ function HTML() {
           <a
             href="https://www.geeksforgeeks.org/html-tutorial/"
             target="_blank"
-            rel="noopener noreferrer"
+            rel="noopener noreferrer" /*Opens link in new tab securely, preventing access to window.opener and hiding referrer*/
+
             style={{ color: '#007acc' }}
           >
             GeeksforGeeks
-          </a>
+          </a> 
+
         </p>
        
     </div>;

@@ -41,7 +41,7 @@ function ReactPage() {
         
         
 
-        {/* Extra sections for sidebar links */}
+        {/* Extra sections for sidebar link */}
         <h3 id="hooks">React Hooks</h3>
         <p>Hooks let you use state and other features in functional components.React Hooks are functions that allow functional components in React to manage state, handle side effects, and access other React features without needing class components. They provide a simpler and more efficient way to manage component logic.</p>
         <h3>Why Use React Hooks?</h3>
@@ -59,7 +59,7 @@ Readability: Functional components with hooks tend to be more concise and easier
         <p>The virtual DOM is a lightweight copy of the real DOM.</p>
 
         <p>
-          For more info visit:&nbsp;
+          For more info visit:&nbsp; {/* to provide space */}
           <a
             href="https://www.geeksforgeeks.org/react/"
             target="_blank"

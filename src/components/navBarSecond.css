@@ -16,15 +16,15 @@ body, ul {
   border-radius: 10px;
 }
 
-/* Style the unordered list */
-.navbar-list {
+
+.navbar-list { /* Style the unordered list */
   display: flex;
   justify-content: space-evenly; 
   align-items: center; 
   list-style-type: none;
 }
 
-/* Style for each list item */
+
 .navbar-item {
   color: white; 
   text-decoration: none;
@@ -32,7 +32,7 @@ body, ul {
   font-size: 18px;
   font-weight: 600; 
   text-transform: uppercase; 
-  border-radius: 5px; /* Rounded edges on each item */
+  border-radius: 5px; /* Rounded edges  */
   transition: all 0.3s ease; /* Smooth transition for hover effects */
 }
 
@@ -40,7 +40,7 @@ body, ul {
 .navbar-item:hover {
   background: rgba(255, 255, 255, 0.2); 
   transform: scale(1.1); /* Slightly increases the size of the item */
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Soft shadow on hover */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); 
 }
 
 

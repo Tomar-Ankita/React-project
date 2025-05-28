@@ -26,7 +26,7 @@ function CSS() {
       <div>
       <img src='BoxModel.png' alt='Box model' style={{width: "350px", height: "auto",border: "4px solid blue"}}></img>
       </div>
-      </div>
+      </div> /* div tag is a wrapper*/
 }
 
 export default CSS;
