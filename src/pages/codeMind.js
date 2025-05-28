@@ -30,7 +30,8 @@ function Codemind() {
         <p style={{ fontSize: '1.1rem' }}>
           Best IT Training Institute for Fullstack Development,
           <p>Manual Testing, Java & Angular training in Pune</p>
-        </p>
+        </p> // This is a test change to check GitHub Desktop tracking
+
       </div>
     </div>
   );
