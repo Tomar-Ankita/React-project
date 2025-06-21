@@ -72,34 +72,57 @@
 // export default App;
 
 
+// import React from 'react';
+// import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+// import HTML from './pages/html';
+// import JavaScript from './pages/javaScript';
+// import CSS from './pages/css';
+// import Codemind from './pages/codeMind';
+// import ReactPage from './pages/reactPage';
+// import Navbar from './components/navBarSecond';
+// import './index.css';
+
+
+
+
+
+// function App() {
+//   console.log("App rendered");
+//   return (
+   
+//     <Router>
+//       <Navbar />
+//       <Routes> {/*provide routes */}
+//         <Route path="/" element={<Codemind />} />
+//         <Route path="/html" element={<HTML />} />
+//         <Route path="/css" element={<CSS />} />
+//         <Route path="/javascript" element={<JavaScript />} />
+//         <Route path="/react" element={<ReactPage />} />
+//       </Routes>
+//     </Router>
+//   );
+// }
+
+// export default App;
+
+
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import HTML from './pages/html';
-import JavaScript from './pages/javaScript';
-import CSS from './pages/css';
-import Codemind from './pages/codeMind';
-import ReactPage from './pages/reactPage';
-import Navbar from './components/navBarSecond';
-import './index.css';
-
-
-
-
+import { Routes, Route } from 'react-router-dom';
+import Login from './loginPage';
+import Signup from './signUpPage';
+import Dashboard from './dashboard';
+import TaskPage from './taskPage';
+import './taskManager.css';
 
 function App() {
-  console.log("App rendered");
   return (
-   
-    <Router>
-      <Navbar />
-      <Routes> {/*provide routes */}
-        <Route path="/" element={<Codemind />} />
-        <Route path="/html" element={<HTML />} />
-        <Route path="/css" element={<CSS />} />
-        <Route path="/javascript" element={<JavaScript />} />
-        <Route path="/react" element={<ReactPage />} />
-      </Routes>
-    </Router>
+    <Routes>
+      <Route path="/" element={<Login />} />
+      <Route path="/signup" element={<Signup />} />
+       <Route path="/dashboard" element={<Dashboard />} />
+       <Route path='/taskPage' element={< TaskPage/>}/>
+    </Routes>
+     
   );
 }
 
