@@ -29,7 +29,7 @@ const Dashboard = () => {
         })
       );
     }
-  }, []);
+  }, []);//When the page loads, this code checks if there are any tasks saved in the browser.If yes, it loads them into your app and also makes sure that dates are properly converted back into real JavaScript Date objects.
 
   useEffect(() => {
     localStorage.setItem("tasks", JSON.stringify(tasks));

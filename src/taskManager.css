@@ -91,7 +91,7 @@
   max-width: 400px;
   margin-bottom: 24px;
 }
-
+  /*all these classes share the exact same CSS styles.*/
 .TaskInput,
 .TaskTextarea,
 .TaskSelect,

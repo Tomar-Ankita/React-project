@@ -20,12 +20,9 @@ const TaskItem = ({ task, onDelete, onEdit }) => {
       <p className="TaskDescription">{task.description}</p>
       <p className="TaskDate">Due: {task.date}</p>
       <div className="TaskActions">
-        <button onClick={() => onEdit(task)} className="ButtonEdit">
-          Edit
-        </button>
-        <button onClick={() => onDelete(task.id)} className="ButtonDelete">
-          Delete
-        </button>
+         {/* When clicked, call onEdit with this task */}
+        <button onClick={() => onEdit(task)} className="ButtonEdit">Edit</button>
+        <button onClick={() => onDelete(task.id)} className="ButtonDelete"> Delete</button>
       </div>
     </div>
   );

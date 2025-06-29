@@ -10,7 +10,7 @@ function Signup() {
   const handleSignup = (e) => {
     e.preventDefault();
 
-    const users = JSON.parse(localStorage.getItem('users')) || [];
+    const users = JSON.parse(localStorage.getItem('users')) || [];// Retrieve users from localStorage or initialize with an empty array
 
     if (users.find((u) => u.username === username)) {
       alert('User already exists. Please login.');
