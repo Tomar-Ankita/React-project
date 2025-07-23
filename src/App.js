@@ -1,3 +1,53 @@
+
+
+import React from 'react';
+import { Routes, Route } from 'react-router-dom';
+
+import Resume from './resumePractice/resumeBuild';
+import Second from './resumePractice/resumeSecondPage';
+import UploadResume from './resumePractice/thirdPage';
+import Description from './resumePractice/jobDesc';
+import PersonalDetailsForm from './resumePractice/experience';
+import Processing from './resumePractice/processing';
+
+function App() {
+  return (
+    <Routes>
+      <Route path="/" element={<Resume />} />
+      <Route path="/resume-second" element={<Second />} />
+      <Route path="/thirdPage" element={<UploadResume />} />
+      <Route path="/description" element={<Description />} />
+      <Route path="/exp" element={<PersonalDetailsForm />} />
+      <Route path="/Processing" element={<Processing/>}/>
+      <Route path='/second' element={<Second/>}/>
+      <Route path='/firstPage' element={<Resume/>}/>
+      <Route path='/continue' element={<Processing/>}/>
+      
+    </Routes>
+  );
+}
+
+export default App;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // // import React from 'react';
 // // import { createBrowserRouter, RouterProvider } from "react-router-dom";
 // // import Home from './home.jsx';
@@ -102,23 +152,28 @@
 //     </Router>
 //   );
 // }
-import React from 'react';
-import { Routes, Route } from 'react-router-dom';
-import Login from './loginPage';
-import Signup from './signUpPage';
-import Dashboard from './dashboard';
-import TaskPage from './taskPage';
-import './taskManager.css';
 
-function App() {
-  return (
-    <Routes>
-      <Route path="/" element={<Login />} />
-      <Route path="/signup" element={<Signup />} />
-      <Route path="/dashboard" element={<Dashboard />} />
-      <Route path="/taskPage" element={<TaskPage />} />
-    </Routes>
-  );
-}
 
-export default App;
+
+
+
+// import React from 'react';
+// import { Routes, Route } from 'react-router-dom';
+// import Login from './loginPage';
+// import Signup from './signUpPage';
+// import Dashboard from './dashboard';
+// import TaskPage from './taskPage';
+// import './taskManager.css';
+
+// function App() {
+//   return (
+//     <Routes>
+//       <Route path="/" element={<Login />} />
+//       <Route path="/signup" element={<Signup />} />
+//       <Route path="/dashboard" element={<Dashboard />} />
+//       <Route path="/taskPage" element={<TaskPage />} />
+//     </Routes>
+//   );
+// }
+
+// export default App;
