@@ -33,19 +33,13 @@
 
 
 import React from "react";
-import PortfolioHome from "./portfolio/portfolioHome.js";
-
+import PortfolioHome from "./components/PortfolioHome";
 
 function App() {
-  return (
-    <div>
-      <PortfolioHome />
-    </div>
-  );
+  return <PortfolioHome />;
 }
 
 export default App;
-
 
 
 
