@@ -59,7 +59,6 @@ html {
   scroll-behavior: smooth;
 }
 
-
 /* Header Section */
 .header {
   display: flex;
@@ -141,7 +140,6 @@ html {
   color: #555;
 }
 
-
 .certification-list {
   display: flex;
   flex-direction: column;
@@ -210,7 +208,6 @@ html {
   border-radius: 10px;
   background-color: #f9f9f9;
 }
-
 
 /* Experience Section */
 .experience {
@@ -336,7 +333,6 @@ html {
 .projects a:hover {
   text-decoration: underline;
 }
-
 
 /* To make  Responsive */
 @media (max-width: 768px) {
@@ -503,7 +499,6 @@ html {
   }
 }
 
-
 .skills-section .tools-grid {
   display: flex;
   flex-wrap: wrap;
@@ -525,7 +520,6 @@ html {
   background-color: #e6f0ff;
 }
 
-
 .project-grid {
   display: flex;
   flex-wrap: nowrap; /* Keeps cards in one row */
@@ -545,7 +539,6 @@ html {
   transition: transform 0.3s ease;
   min-height: 300px;
 }
-
 
 .project-card.small-card {
   width: 260px;
@@ -599,11 +592,9 @@ html {
   opacity: 0.9;
 }
 
-
 .project-card:hover {
   transform: translateY(-4px);
 }
-
 
 .project-badge.featured {
   background-color: #f59e0b;
@@ -673,7 +664,6 @@ html {
    font-weight: bold;
 }
 
-
   .footer {
   text-align: center;
   padding: 1.5rem 0;
@@ -682,7 +672,6 @@ html {
   font-size: 0.9rem;
   border-top: 1px solid #ddd;
 }
-
 
 .footer-content {
   display: flex;
@@ -790,13 +779,12 @@ html {
 }
 
 
-
 .contact-icons {
   display: flex;
-  justify-content: center; /* Center horizontally */
-  align-items: center;      /* Center vertically (optional) */
-  gap: 15px;                /* Space between icons */
-  flex-wrap: wrap;          /* Prevent overflow on smaller screens */
+  justify-content: center; 
+  align-items: center;      
+  gap: 15px;                
+  flex-wrap: wrap;          
   padding: 10px;
 }
 
@@ -806,4 +794,123 @@ html {
   text-decoration: none;
   color: #000;
   font-weight: 500;
+}
+
+/* === Responsive additions start here === */
+
+/* Large tablets */
+@media (max-width: 1024px) {
+  .navbar {
+    flex-wrap: wrap;
+    padding: 10px 20px;
+  }
+
+  .navbar-menu {
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+  }
+
+  .header {
+    flex-direction: column;
+    align-items: center;
+    max-width: 90%;
+    margin: 2rem auto 3rem auto;
+  }
+
+  .header-left img.profile-pic {
+    width: 180px;
+    height: 180px;
+  }
+
+  .header-right {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .experience-card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .experience-icon {
+    margin-bottom: 1rem;
+  }
+
+  .skills-grid,
+  .details-cards {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .project-grid {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+  }
+}
+
+/* Tablets and mobiles */
+@media (max-width: 768px) {
+  .navbar-menu {
+    flex-direction: column;
+    width: 100%;
+    gap: 0.75rem;
+    margin-top: 10px;
+  }
+
+  .header-left img.profile-pic {
+    width: 150px;
+    height: 150px;
+  }
+
+  .hero-title {
+    font-size: 2rem;
+  }
+
+  .subtitle,
+  .bio {
+    font-size: 1rem;
+  }
+
+  .experience-card {
+    padding: 1rem;
+  }
+
+  .skills-card,
+  .tool-card {
+    max-width: 100%;
+    flex: 1 1 100%;
+  }
+
+  .project-card {
+    flex: 0 0 260px;
+  }
+}
+
+/* Small mobile phones */
+@media (max-width: 480px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 15px;
+  }
+
+  .navbar-menu {
+    width: 100%;
+  }
+
+  .header-left img.profile-pic {
+    width: 120px;
+    height: 120px;
+  }
+
+  .hero-title {
+    font-size: 1.6rem;
+  }
+
+  .subtitle,
+  .bio {
+    font-size: 0.9rem;
+  }
 }

@@ -2,7 +2,6 @@ import React from "react";
 import "./portfolio.css";
 import profileImage from "../assets/ankita.jpg";
 
-
 export default function PortfolioHome() {
   return (
     <div className="container">
@@ -118,7 +117,6 @@ export default function PortfolioHome() {
   </div>
 </div>
 
-
           {/* Certifications */}
          <div className="certifications-section section-card">
   <h2> <img 
@@ -144,7 +142,6 @@ export default function PortfolioHome() {
     </div>
   </div>
 </div>
-
 
           <div className="strengths-section section-card">
   <h2>  <img 
@@ -207,7 +204,7 @@ export default function PortfolioHome() {
         </div>
 
         <div className="experience-card">
-          <div className="experience-icon">👩‍🏫</div>
+          <div className="experience-icon">👩🏫</div>
           <div>
             <h3>Computer Science Tutor</h3>
             <p className="subtext">Private Tutor</p>
@@ -311,7 +308,6 @@ export default function PortfolioHome() {
   </div>
 </section>
 
-
       {/* Projects */}
       <section id="projects" className="projects">
   <h2 className="section-title">
@@ -411,7 +407,6 @@ export default function PortfolioHome() {
   </div>
  
 </div>
-
 
 </section>
 
@@ -639,3 +634,5 @@ export default function PortfolioHome() {
     </div>
   );
 }
+
+
